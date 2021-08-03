@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Food({ name, stringLength }) {
   return <div>
     <h3>I love {name}.</h3>
-    <h4>The length of this string '{name}' is {stringLength}.</h4>
+    <h4>The length of the name '{name}' is {stringLength}.</h4>
   </div>
 }
 
